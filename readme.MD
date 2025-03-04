@@ -182,3 +182,7 @@ docker run -d -p {exposedPort}:{containerPort} {name}:{tag}
 | `docker start {containerId}`                                  | Starts an **existing container** instead of creating a new one.                             |
 | `--name`                                                      | Specifies a **custom name** for a container when using `docker run`.                        |
 | `docker build -t {name}:{tag} .`                              | **Builds an image** from a Dockerfile with a specified **name** and **tag**.                |
+
+### Learned from https://www.youtube.com/watch?v=pg19Z8LL06w
+
+### If you want to know how to build a image, look at 'Code' folder.
